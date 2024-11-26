@@ -13,7 +13,7 @@ Este repositório contém a solução para o Desafio de Engenharia de Dados, div
 1. **Ferramentas Utilizadas**:
    - **Airflow**: Para orquestração das tarefas.
    - **PostgreSQL**: Para armazenar os dados relacionais no Desafio 1.
-   - **Google Cloud Storage (GCS)**: Para armazenar os arquivos CSV gerados no Desafio 2.
+   - **Google Cloud Storage (GCS)**: Para armazenar os arquivos `.csv` gerados no Desafio 2.
    - **Python e Pandas**: Para a manipulação de Dataframes e sintaxe do Apache Airflow.
 
 2. **Credenciais Necessárias**:
@@ -139,7 +139,7 @@ O segundo desafio consistiu em consumir 5 endpoints de APIs, processar as respos
    - As respostas JSON das APIs foram normalizadas utilizando `pandas` e convertidas em arquivos `.csv`.
 
 3. **Armazenamento no GCS**:
-   - Os arquivos CSV foram organizados no bucket em uma estrutura hierárquica:
+   - Os arquivos `.csv` foram organizados no bucket em uma estrutura hierárquica:
      ```
      gs://cb_bucket/data_lake/<endpoint_name>/<busDt>/<storeId>.csv
      ```
