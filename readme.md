@@ -1,4 +1,4 @@
-# Desafio de Engenharia de Dados - Coco Bambu
+# Desafio de Engenharia de Dados
 
 Este repositório contém a solução para o Desafio de Engenharia de Dados, dividido em duas tarefas principais:
 
